@@ -28,14 +28,14 @@ CentOS
 ```terminal
 yum -y install wget
 ```
-#####安装ssr配置脚本
+##### 安装ssr配置脚本
 
 ```terminal
 wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh
 chmod +x ssr.sh
 bash ssr.sh
 ```
-#####备用地址
+##### 备用地址
 
 ```terminal
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh
@@ -83,9 +83,11 @@ bash ssr.sh
 不需要，直接回车
 
 ![image.png](http://upload-images.jianshu.io/upload_images/6245842-b11c869d20319366.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 这个回车之后就会有一大堆乱七八糟的东西，等一等，让它自己配置。结束之后如图：
 
 ![image.png](http://upload-images.jianshu.io/upload_images/6245842-a0f12abc144bf3ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 为了保密，我把IP，SS和SSR链接P掉了。毕竟我的服务器只是一个很小的服务器，不敢拿出来共享。在此说一声抱歉。
 # 三.配置加速
 这一步其实可以不要。但是为了从此之后不再忧心与SSR服务器的重启（服务器重启后SSR服务会被关闭，需要重新手动启动）和SSR代理网络速度更快，推荐大家往下看。
@@ -98,10 +100,12 @@ chmod +x bbr.sh
 把上述的代码依次执行一遍，执行完之后是这样的
 
 ![image.png](http://upload-images.jianshu.io/upload_images/6245842-efa9703df1b9363b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-这事只需要按一下键盘上任意一个按键即可（按一下就行，不需要多按，等一下就会有反应了）
+
+这时只需要按一下键盘上任意一个按键即可（按一下就行，不需要多按，等一下就会有反应了）
 等安装完之后是这样的
 
 ![image.png](http://upload-images.jianshu.io/upload_images/6245842-5bf4cb40ea037fa8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 这里是在询问是否重启系统。我们输入y.回车之后会发现已经与服务器断开链接了。不必担心，这是服务器在重启。等一下再次连接即可。
 如果想再次配置SSR，只需要输入命令
 ```terminal
@@ -110,7 +114,8 @@ bash ssr.sh
 就会重新回到安装的界面
 
 ![image.png](http://upload-images.jianshu.io/upload_images/6245842-e5b70e039cb0b0d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 输入7即可根据需要自己修改配置了。怎么样，很简单吧。
 不过服务器这东西一般人还是很难拥有的。感谢阅读。
 
-SSR客户端百度网盘下载链接：[https://pan.baidu.com/s/1mhLPJZU](https://pan.baidu.com/s/1mhLPJZU)
+SSR客户端百度网盘下载链接：[https://pan.baidu.com/s/1n4-bhlDaQH23RAY5u1HL2w](https://pan.baidu.com/s/1n4-bhlDaQH23RAY5u1HL2w)  密码:k8j4
